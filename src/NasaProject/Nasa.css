@@ -1,0 +1,139 @@
+  /* General body and layout styling */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+}
+
+/* Header Styling */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  color: #2a2a72;
+  margin: 20px 0;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Search Section */
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0;
+}
+
+input[type="date"] {
+  padding: 10px;
+  font-size: 1rem;
+  border: 2px solid #2a2a72;
+  border-radius: 5px;
+  margin-right: 10px;
+  outline: none;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #2a2a72;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #4d1c08;
+}
+
+/* Main Content Styling */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px auto;
+  max-width: 1200px;
+}
+
+/* Image Section */
+.image-container {
+  width: 80%;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.image-container h2 {
+  font-size: 1.5rem;
+  color: #2a2a72;
+  margin-bottom: 10px;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 8px;
+}
+
+.image-container p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+
+/* Search History Section */
+.search-history {
+  width: 18%;
+  background-color: #fff;
+  border-left: 2px solid #e6e6e6;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.search-history h3 {
+  font-size: 1.2rem;
+  color: #2a2a72;
+  margin-bottom: 10px;
+}
+
+.search-history ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.search-history li {
+  margin-bottom: 10px;
+}
+
+.search-history button {
+  background: none;
+  border: none;
+  color: #007bff;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 1rem;
+  padding: 5px 0;
+  text-align: left;
+}
+
+.search-history button:hover {
+  color: #0056b3;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .image-container, .search-history {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+}
