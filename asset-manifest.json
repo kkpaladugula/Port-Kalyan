@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.css": "/Port-Kalyan/static/css/main.e759ba3f.css",
-    "main.js": "/Port-Kalyan/static/js/main.b662789a.js",
-    "static/media/Photo.jpg": "/Port-Kalyan/static/media/Photo.d0e82dc2899180ab9ff0.jpg",
-    "index.html": "/Port-Kalyan/index.html",
-    "main.e759ba3f.css.map": "/Port-Kalyan/static/css/main.e759ba3f.css.map",
-    "main.b662789a.js.map": "/Port-Kalyan/static/js/main.b662789a.js.map"
+    "main.css": "/Nasa-Astronomy/static/css/main.1e523613.css",
+    "main.js": "/Nasa-Astronomy/static/js/main.d17019f5.js",
+    "static/js/453.e4ba40e6.chunk.js": "/Nasa-Astronomy/static/js/453.e4ba40e6.chunk.js",
+    "index.html": "/Nasa-Astronomy/index.html",
+    "main.1e523613.css.map": "/Nasa-Astronomy/static/css/main.1e523613.css.map",
+    "main.d17019f5.js.map": "/Nasa-Astronomy/static/js/main.d17019f5.js.map",
+    "453.e4ba40e6.chunk.js.map": "/Nasa-Astronomy/static/js/453.e4ba40e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e759ba3f.css",
-    "static/js/main.b662789a.js"
+    "static/css/main.1e523613.css",
+    "static/js/main.d17019f5.js"
   ]
 }
